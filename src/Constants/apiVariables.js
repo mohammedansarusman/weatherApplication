@@ -1,6 +1,7 @@
 
 export const url1 = 'https://weatherapi-com.p.rapidapi.com/forecast.json?q=';
 export const url2 = '&days=3';
+export const searchUrl = "https://weatherapi-com.p.rapidapi.com/search.json?q=";
 
 export const options = {
 	method: 'GET',
@@ -9,3 +10,5 @@ export const options = {
 		'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com'
 	}
 };
+
+

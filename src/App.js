@@ -32,7 +32,6 @@ function App() {
 	if (locationError) {
 		return (
 			<LocationError />
-            
         )
 	}
 
